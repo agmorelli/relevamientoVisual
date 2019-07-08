@@ -1,3 +1,113 @@
 page-home {
 
-}
+    
+    .btn{
+           
+            background-color: rgb(40, 155, 249);
+            border-style: solid;
+            border-width: 2px;
+            border-color: white;
+            margin-bottom: 5px;
+            height: 100%;
+            width: 100%;
+            border-radius: 5%;
+            font-size: x-large;
+            
+    }
+    ul{
+        height: 100%;
+    }
+    
+    
+    li{
+            margin: 1px;
+            padding: 1px;
+            height: 50%;
+    }
+    
+    }
+    
+    
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    
+    
+    
+    
+    @media (min-width: 576px) {
+            .col-p {
+                ///margin-top: 10%;
+                width: 20%;
+                height :70%;
+            }
+    
+            .list-inline{
+                    height: 100%;
+            }
+    
+            .list-inline-item{
+                    height: 100%;
+                    width: 49%;
+            }
+        
+        
+        
+          }
+          
+          @media (min-width: 768px) {
+            .col-p {
+               //// margin-top: 10%;
+                width: 20%;
+                height :70%;
+            }
+        
+            .list-inline{
+                    height: 100%;
+            }
+    
+            .list-inline-item{
+                height: 100%;
+                width: 49%;
+        }
+        
+        
+        
+          }
+          
+          @media (min-width: 992px) {
+            .col-p {
+               //// margin-top: 10%;
+                width: 20%;
+                height :70%;
+            }
+        
+            .list-inline{
+                    height: 100%;
+            }
+    
+            .list-inline-item{
+                height: 100%;
+                width: 49%;
+        }
+        
+        
+        
+          }
+          
+          @media (min-width: 1200px) {
+            .col-p {
+       //// margin-top: 10%;
+        width: 20%;
+        height :70%;
+            }
+        
+            .list-inline{
+                    height: 100%;
+            }
+    
+            .list-inline-item{
+                height: 100%;
+                width: 49%;
+        }
+        
+          }

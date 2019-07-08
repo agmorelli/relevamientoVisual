@@ -1,0 +1,38 @@
+
+<ion-header>
+    <ion-navbar>
+      <ion-title>Lindas</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content padding class="fondo">
+    
+    
+    <button ion-button color="light" outline (click)="SacarFoto()" >Tomar foto</button>
+    <br>
+    <button [disabled]="!hayFotos" ion-button color="light" outline (click)="GuardarFotos()" > Guardar fotos</button>
+    <br>
+      <button ion-button color="light" outline (click)="IrAListalindas()" > Ver cosas lindas </button>
+      <br>
+      <button ion-button color="light" outline (click)="MisFotos()" > Mis fotos</button>
+
+
+<ion-list *ngIf="hayFotos">
+<ion-card *ngFor="let img of captureDataUrl">
+
+          
+              <ion-card-content>
+                    <img src="{{img}}">
+                  
+              </ion-card-content>
+
+          </ion-card>
+       
+   
+</ion-list>
+
+
+
+
+
+</ion-content>

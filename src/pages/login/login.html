@@ -1,0 +1,35 @@
+
+<ion-content padding style="background-color: rgb(40, 155, 249)">
+
+  <h1 style="text-align: center; color: white;">Relevamiento Visual</h1>
+
+  <fieldset style="border-style:solid; border-color: white; border-width: 1px;"> <legend style="width: 30%; text-align: center; color: white;">Ingreso</legend>
+ 
+  
+    <input type="mail" placeholder="Mail" [(ngModel)]="mail">
+  
+      <input type="password"  placeholder="Clave" [(ngModel)]="clave">
+  
+<!--
+    <div class="row" >
+        <div class="col" >
+<button class="btn-round" (click)="Ingresar()"> Ingresar </button>
+        </div>
+        <div  class="col">
+            <button class="btn-round"> Registrar </button>
+        </div>
+    </div>--> <div class="d-flex justify-content-center"> 
+        <button class="btn-round" (click)="Ingresar()"> Ingresar </button>
+        
+    </div>
+ 
+  </fieldset>
+  <button ion-button full (click)="Test('admin@gmail.com','1111')" >admin</button>
+  <button ion-button full (click)="Test('invitado@gmail.com','2222')" >invitado</button>
+  <button ion-button full (click)="Test('usuario@gmail.com','3333')" >usuario</button>
+
+
+
+    
+
+</ion-content>
